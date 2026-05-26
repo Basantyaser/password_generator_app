@@ -49,7 +49,7 @@ class Passwordgenerator:
             self.entropy_label.configure(text=f"Entropy: {entropy:.2f} bits (Very Strong)", text_color="blue")
 
             # Display the password in the entry box
-            self.password_var.set(password)
+        self.password_var.set(password)
 
 
 
